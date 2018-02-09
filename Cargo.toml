@@ -1,0 +1,19 @@
+[package]
+name = "shadow-rust-test"
+version = "0.1.0"
+authors = ["Dave Huseby <github@xf.rs>"]
+
+[dependencies]
+tokio = "0.1"
+tokio-io = "0.1"
+futures = "0.1"
+futures-cpupool = "0.1"
+
+[lib]
+name = "shadow_plugin_rust_test"
+crate-type=["cdylib"]
+path = "src/main.rs"
+
+[[bin]]
+name = "rust_test"
+path = "src/main.rs"
