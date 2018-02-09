@@ -1,3 +1,4 @@
-
+driver
+driver.o
 /target/
 **/*.rs.bk
