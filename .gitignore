@@ -1,4 +1,5 @@
 driver
 driver.o
 /target/
+shadow.data
 **/*.rs.bk
